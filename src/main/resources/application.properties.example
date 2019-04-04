@@ -1,0 +1,6 @@
+# Server
+server.port = 8090
+
+# Oauth
+security.oauth2.resource.filter-order = 3
+security.oauth2.resource.jwt.key-value = 
