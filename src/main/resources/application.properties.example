@@ -1,6 +1,7 @@
 # Server
 server.port = 8090
 
-# Oauth
-security.oauth2.resource.filter-order = 3
-security.oauth2.resource.jwt.key-value = 
+# Authentication Server
+config.oauth2.clientId = 
+config.oauth2.clientSecret = 
+config.oauth2.tokenEndpoint = http://authserver/oauth/check_token

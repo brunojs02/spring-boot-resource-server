@@ -16,7 +16,8 @@ public class TesteResource {
 	public String index() {
 		AccessTokenMapper access = (AccessTokenMapper) ((OAuth2AuthenticationDetails) SecurityContextHolder.getContext()
 				.getAuthentication().getDetails()).getDecodedDetails();
-		return "It's work... user logged:: " + access.getUsername();
+		System.out.println(access.getUsername());
+		return "It's work...";
 	}
 
 }
